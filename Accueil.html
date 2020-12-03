@@ -1,0 +1,261 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+	<head>
+		<meta charset="utf-8"/>
+		<link rel="stylesheet" href="./css/card.css" />
+		<link rel="stylesheet" href="./css/navbarAccueil.css" />
+		
+		
+		<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+		<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+		<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script><meta name="viewport" content="width=device-width, initial-scale=1">
+		<script src="./js/navbar.js"></script>
+		<script src="./js/card.js"></script>
+	</head>
+	
+	<body>
+	<header class="header-area overlay">
+    <nav class="navbar navbar-expand-md navbar-dark">
+		<div class="container">
+			<a href="./Accueil.html" class="navbar-brand">Écrans informatiques</a>
+			
+			<button type="button" class="navbar-toggler collapsed" data-toggle="collapse" data-target="#main-nav">
+				<span class="menu-icon-bar"></span>
+				<span class="menu-icon-bar"></span>
+				<span class="menu-icon-bar"></span>
+			</button>
+			
+			<div id="main-nav" class="collapse navbar-collapse">
+				<ul class="navbar-nav ml-auto">
+					<li><a href="./Accueil.html" class="nav-item nav-link active">Accueil</a></li>
+					<li><a href="./Presentation.html" class="nav-item nav-link">Présentation</a></li>
+					<li><a href="./Frise_Chronologique.html" class="nav-item nav-link">Frise Chronologique</a></li>
+					<li class="dropdown">
+						<a class="nav-item nav-link" data-toggle="dropdown">Le Passé des Écrans</a>
+						<div class="dropdown-menu">
+							<a href="./Ecrans_Cathodiques.html" class="dropdown-item">Les Écrans Cathodiques</a>
+							<a href="./Ecrans_Plasma.html" class="dropdown-item">Les Écrans Plasma</a>
+						</div>
+					</li>
+					<li class="dropdown">
+						<a class="nav-item nav-link" data-toggle="dropdown">Les Écrans Actuels</a>
+						<div class="dropdown-menu">
+							<a href="./Ecrans_LCD.html" class="dropdown-item">Les Écrans LCD</a>
+							<a href="./Ecrans_LED.html" class="dropdown-item">Les Écrans LED</a>
+							<a href="./Ecrans_OLED.html" class="dropdown-item">Les Écrans OLED</a>
+						</div>
+					</li>
+					<li class="dropdown">
+						<a class="nav-item nav-link" data-toggle="dropdown">Le Futur des Écrans</a>
+						<div class="dropdown-menu">
+							<a href="./Ecrans_360.html" class="dropdown-item">Les Écrans à 360°</a>
+							<a href="./Ecrans_Transparent.html" class="dropdown-item">Les Écrans Transparent</a>
+						</div>
+					</li>
+					<li><a href="./Equipe.html" class="nav-item nav-link">L'Équipe</a></li>
+				</ul>
+			</div>
+		</div>
+	</nav>
+	
+	<div class="banner">
+		<div class="container">
+			<h1>Les Écrans À Travers Le Temps</h1>
+			<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer nec elit ex. Etiam elementum lectus et tempor molestie.</p>
+			<a href="#content" class="button button-primary">Voir les Différentes Parties</a>
+		</div>
+	</div>
+</header>
+<main>
+
+	<section id="content" class="content fond">
+		<div class="container center">
+			<div class="card-deck">
+			
+				<div class="card">
+					<div class="card-img" style="background-image:url(http://placehold.it/500x335);">
+						<div class="overlay2">
+							<div class="overlay2-content">
+								<a href="./Presentation.html">Consulter la page</a>
+							</div>
+						</div>
+					</div>
+					
+					<div class="card-content">
+						<a href="./Presentation.html">
+							<h2>Présentation</h2>
+							<p>Lorem ipsum dolor sit amet consectetur, lorem ipsum dolor</p>
+						</a>
+					</div>
+				</div>
+
+				<div class="card">
+					<div class="card-img" style="background-image:url(http://placehold.it/500x335);">
+						<div class="overlay2">
+							<div class="overlay2-content">
+								<a href="./Frise_Chronologique.html">Consulter la page</a>
+							</div>
+						</div>
+					</div>
+					
+					<div class="card-content">
+						<a href="./Frise_Chronologique.html">
+							<h2>Frise Chronologique</h2>
+							<p>Lorem ipsum dolor sit amet consectetur, lorem ipsum dolor</p>
+						</a>
+					</div>
+				</div>
+
+				<div class="card">
+					<div class="card-img" style="background-image:url(http://placehold.it/500x335);">
+						<div class="overlay2">
+							<div class="overlay2-content">
+								<a href="./Ecrans_Cathodiques.html">Consulter la page</a>
+							</div>
+						</div>
+					</div>
+					
+					<div class="card-content">
+						<a href="./Ecrans_Cathodiques.html">
+							<h2>Les Écrans Cathodiques</h2>
+							<p>Lorem ipsum dolor sit amet consectetur, lorem ipsum dolor</p>
+						</a>
+					</div>
+				</div>
+			</div>
+			<br>
+		<div class="card-deck">
+			
+				<div class="card">
+					<div class="card-img" style="background-image:url(http://placehold.it/500x335);">
+						<div class="overlay2">
+							<div class="overlay2-content">
+								<a href="./Ecrans_Plasma.html">Consulter la page</a>
+							</div>
+						</div>
+					</div>
+					
+					<div class="card-content">
+						<a href="./Ecrans_Plasma.html">
+							<h2>Les Écrans Plasma</h2>
+							<p>Lorem ipsum dolor sit amet consectetur, lorem ipsum dolor</p>
+						</a>
+					</div>
+				</div>
+
+				<div class="card">
+					<div class="card-img" style="background-image:url(http://placehold.it/500x335);">
+						<div class="overlay2">
+							<div class="overlay2-content">
+								<a href="./Ecrans_LCD.html">Consulter la page</a>
+							</div>
+						</div>
+					</div>
+					
+					<div class="card-content">
+						<a href="./Ecrans_LCD.html">
+							<h2>Les Écrans LCD</h2>
+							<p>Lorem ipsum dolor sit amet consectetur, lorem ipsum dolor</p>
+						</a>
+					</div>
+				</div>
+
+				<div class="card">
+					<div class="card-img" style="background-image:url(http://placehold.it/500x335);">
+						<div class="overlay2">
+							<div class="overlay2-content">
+								<a href="./Ecrans_LED.html">Consulter la page</a>
+							</div>
+						</div>
+					</div>
+					
+					<div class="card-content">
+						<a href="./Ecrans_LED.html">
+							<h2>Les Écrans LED</h2>
+							<p>Lorem ipsum dolor sit amet consectetur, lorem ipsum dolor</p>
+						</a>
+					</div>
+				</div>
+			</div>
+			<br>
+			<div class="card-deck">
+			
+				<div class="card">
+					<div class="card-img" style="background-image:url(http://placehold.it/500x335);">
+						<div class="overlay2">
+							<div class="overlay2-content">
+								<a class="" href="./Ecrans_OLED.html">Consulter la page</a>
+							</div>
+						</div>
+					</div>
+					
+					<div class="card-content">
+						<a href="./Ecrans_OLED.html">
+							<h2>Les Écrans OLED</h2>
+							<p>Lorem ipsum dolor sit amet consectetur, lorem ipsum dolor</p>
+						</a>
+					</div>
+				</div>
+
+				<div class="card">
+					<div class="card-img" style="background-image:url(http://placehold.it/500x335);">
+						<div class="overlay2">
+							<div class="overlay2-content">
+								<a href="./Ecrans_360.html">Consulter la page</a>
+							</div>
+						</div>
+					</div>
+					
+					<div class="card-content">
+						<a href="./Ecrans_360.html">
+							<h2>Les Écrans à 360°</h2>
+							<p>Lorem ipsum dolor sit amet consectetur, lorem ipsum dolor</p>
+						</a>
+					</div>
+				</div>
+
+				<div class="card">
+					<div class="card-img" style="background-image:url(http://placehold.it/500x335);">
+						<div class="overlay2">
+							<div class="overlay2-content">
+								<a href="./Ecrans_Transparent.html">Consulter la page</a>
+							</div>
+						</div>
+					</div>
+					
+					<div class="card-content">
+						<a href="./Ecrans_Transparent.html">
+							<h2>Les Écrans Transparent</h2>
+							<p>Lorem ipsum dolor sit amet consectetur, lorem ipsum dolor</p>
+						</a>
+					</div>
+				</div>
+			</div>
+			<br>
+			<div class="card-deck">
+			
+				<div class="card">
+					<div class="card-img" style="background-image:url(http://placehold.it/1500x335);">
+						<div class="overlay2">
+							<div class="overlay2-content">
+								<a class="" href="./Equipe.html">Consulter la page</a>
+							</div>
+						</div>
+					</div>
+					
+					<div class="card-content">
+						<a href="./Equipe.html">
+							<h2>L'Équipe</h2>
+							<p>Lorem ipsum dolor sit amet consectetur, lorem ipsum dolor</p>
+						</a>
+					</div>
+				</div>
+			</div>
+			<br>
+		</div>
+	</section>
+</main>
+	</body>
+</html>
