@@ -1,0 +1,12 @@
+.img-galery{
+    width: 100%;
+    margin-bottom: 2em;
+}
+
+.table.table-bordered > tbody > tr > td{
+    border:1px solid black;
+}
+
+.table.table-bordered > thead > tr > th{
+    border:1px solid black;
+}
